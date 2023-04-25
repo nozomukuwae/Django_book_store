@@ -12,4 +12,8 @@
         </a>
         {% endfor %}
     </ul>
+
+    <p>Total Number of Books: {{ books_count }}</p>
+    <p>Average Rating: {{ aggregation.rating__avg }}</p>
+    <p>Min Rating: {{ aggregation.rating__min }}</p>
 {% endblock %}
